@@ -5,7 +5,11 @@ function NavigationBar() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand href="/">Chris Klemtz</Navbar.Brand>
+        <LinkContainer to="/">
+          <Navbar.Brand>
+            <strong>Chris Klemtz</strong>
+          </Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
