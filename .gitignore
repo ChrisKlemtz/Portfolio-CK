@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Environment variables
+.env
+backend/.env
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# VS Code
+.vscode/
